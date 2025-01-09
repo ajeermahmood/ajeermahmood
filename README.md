@@ -15,8 +15,8 @@ Welcome to my GitHub! I'm a **Full-Stack Developer** passionate about crafting i
 - Exploring AI tools for next-gen interactive applications  
 
 ## 💻 Connect With Me  
-- **Email:** [your-email@example.com](mailto:your-email@example.com)  
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-- **Portfolio:** [your-portfolio-link](https://your-portfolio-link.com)  
+- **Email:** [ajeermahmood@outlook.com](mailto:ajeermahmood@outlook.com)  
+- **LinkedIn:** [linkedin.com/in/ajeermahmood](https://linkedin.com/in/ajeermahmood)  
+- **Portfolio:** [Portfolio](https://ajeer-portfolio.vercel.app)  
 
 Thanks for visiting my profile! Feel free to check out my projects or get in touch. 🚀  
