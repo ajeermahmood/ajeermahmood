@@ -10,7 +10,7 @@ app stores, a Shopify storefront serving over 10,000 people a day, and training 
 event platforms for Abbott and L'Oreal.
 
 Most of that is private client code, so this profile shows a fraction of what I do.
-The write-ups are at **[ajeer-portfolio.vercel.app](https://ajeer-portfolio.vercel.app)**.
+The write-ups are at **[ajeer.website](https://ajeer.website)**.
 
 ### What I am good at
 
@@ -35,7 +35,7 @@ different and much more interesting problem. Eight production repos so far.
 - **[web-element-scraper](https://npmjs.com/package/web-element-scraper)** and
   **[nodejs-performance-profiler](https://npmjs.com/package/nodejs-performance-profiler)**
   on npm
-- **[Making a codebase safe for AI coding agents](https://ajeer-portfolio.vercel.app/blog/coding-agents-in-production-repositories)**,
+- **[Making a codebase safe for AI coding agents](https://ajeer.website/blog/coding-agents-in-production-repositories)**,
   which is the long version of the third thing above
 
 ### Stack
@@ -54,4 +54,4 @@ Happy to learn whatever the problem actually needs.
 
 [ajeermahmood@outlook.com](mailto:ajeermahmood@outlook.com) ·
 [LinkedIn](https://linkedin.com/in/ajeermahmood) ·
-[Portfolio](https://ajeer-portfolio.vercel.app)
+[Portfolio](https://ajeer.website)
