@@ -24,12 +24,15 @@ rather spend a day writing the check than a year hoping everyone remembers.
 
 **Making codebases safe for AI agents to work in.** Not prompting. Changing the
 repository so the consequences of an agent being wrong are contained, which is a
-different and much more interesting problem. Eight production repos so far.
+different and much more interesting problem. Eight production repos so far, and
+the generalised version of it is the first thing below.
 
 ### Building in public
 
-- **[bouncer](https://github.com/ajeermahmood/bouncer)** - CI gates that let anyone
-  contribute without being able to break things
+- **[bouncer-gates](https://github.com/ajeermahmood/bouncer-gates)** - CI gates that
+  let anyone contribute without being able to break things. Also runs inside Claude
+  Code and Cursor, so an agent hears about a leaked key or a cross-tenant query in
+  the same turn it wrote one. Listed in the official MCP Registry
 - **[estate](https://github.com/ajeermahmood/estate)** - a linter for your
   repositories rather than your code, in one Go binary
 - **[web-element-scraper](https://npmjs.com/package/web-element-scraper)** and
