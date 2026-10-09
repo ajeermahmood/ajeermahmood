@@ -1,10 +1,12 @@
 # Ajeer Mohammed
 
-Full-stack engineer. I build web, mobile and AI systems, get them in front of real
-users, and stay on to run them.
+Senior full-stack engineer. I ship production software with AI coding agents, build
+the checks that keep it safe, and stay on to run it. Since July 2026 about nine
+in ten of my commits are written with an agent; my part is the architecture, the
+review, and the checks that stop its mistakes reaching production.
 
 Right now I lead a multi-tenant e-commerce platform: three apps and two shared
-packages in one monorepo, 56 data models, four to six developers around it. Before
+packages in one monorepo, 60 data models, four to six developers around it. Before
 that, an infant health app for a US state department of health that is live on both
 app stores, a Shopify storefront serving over 10,000 people a day, and training and
 event platforms for Abbott and L'Oreal.
@@ -23,9 +25,12 @@ production is something a person knew and forgot at the wrong moment. I would
 rather spend a day writing the check than a year hoping everyone remembers.
 
 **Making codebases safe for AI agents to work in.** Not prompting. Changing the
-repository so the consequences of an agent being wrong are contained, which is a
-different and much more interesting problem. Eight production repos so far, and
-the generalised version of it is the first thing below.
+repository so the consequences of an agent being wrong are contained: hooks that
+keep it out of secrets, review skills for what static checks miss, and CI gates
+that hold it to the same bar as a person. Agent instructions in eight production
+repos, blocking gates where a mistake costs money, and the generalised version is
+the first thing below. The whole workflow, with the numbers, is at
+**[ajeer.website/how-i-work](https://ajeer.website/how-i-work)**.
 
 ### Building in public
 
@@ -33,13 +38,20 @@ the generalised version of it is the first thing below.
   let anyone contribute without being able to break things. Also runs inside Claude
   Code and Cursor, so an agent hears about a leaked key or a cross-tenant query in
   the same turn it wrote one. Listed in the official MCP Registry
+- **[agent-ready-repo](https://github.com/ajeermahmood/agent-ready-repo)** - a template
+  for a repository AI agents can work in safely: AGENTS.md, a secret-read hook,
+  review skills and CI
 - **[estate](https://github.com/ajeermahmood/estate)** - a linter for your
   repositories rather than your code, in one Go binary
 - **[web-element-scraper](https://npmjs.com/package/web-element-scraper)** and
   **[nodejs-performance-profiler](https://npmjs.com/package/nodejs-performance-profiler)**
   on npm
+- **[How I build software with AI agents](https://ajeer.website/how-i-work)** - the
+  workflow layer by layer, with the commit data and what went wrong
+- **[What my coding agents got wrong, and what caught it](https://ajeer.website/blog/what-my-coding-agents-got-wrong)** -
+  six real mistakes from agent-written code
 - **[Making a codebase safe for AI coding agents](https://ajeer.website/blog/coding-agents-in-production-repositories)**,
-  which is the long version of the third thing above
+  which rules belong in a gate and which in an instructions file
 
 ### Stack
 
